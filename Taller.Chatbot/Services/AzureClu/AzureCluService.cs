@@ -11,10 +11,10 @@ namespace Taller.Chatbot.Services.AzureClu
     {
         public async Task<AzureCluModel> Execute(string text)
         {
-            var endpoint = "https://languageservicepaybot01.cognitiveservices.azure.com";
-            var key = "58fb88b44f1e4aa39a0ac71c9ad8d470";
-            var projectName = "PayBot";
-            var deploymentName = "0.1";
+            var endpoint = "";
+            var key = "";
+            var projectName = "";
+            var deploymentName = "";
 
             AzureKeyCredential credential = new AzureKeyCredential(key);
             Uri endPointUri = new Uri(endpoint);
